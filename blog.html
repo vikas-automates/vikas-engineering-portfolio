@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Vikas Kumar</title>
+    <meta name="description" content="Insights on QA Automation, AI, and Cloud Tech by Vikas Kumar.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">VK<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <a href="Vikas Kumar - QA Automation Analyst.pdf" class="btn-primary" target="_blank">Resume <i
+                    class="fas fa-download"></i></a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section blog-header">
+            <h1 class="hero-name" style="font-size: 3rem;">Insights & Experiments</h1>
+            <p class="hero-tagline">Exploring the intersection of <span class="highlight">Quality</span> and <span
+                    class="highlight">AI</span>.</p>
+        </section>
+
+        <section class="section blog-grid-section">
+            <div class="blog-grid">
+                <!-- Article Card 1 -->
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 20, 2025</span>
+                            <span class="blog-tag">AI & Automation</span>
+                        </div>
+                        <h2 class="blog-title"><a href="posts/playwright-mcp-guide.html">Automating Quality with
+                                Playwright MCP & AI Agents</a></h2>
+                        <p class="blog-excerpt">
+                            Discover how to use the Model Context Protocol (MCP) to let AI agents like Claude drive
+                            Playwright for autonomous website testing. A step-by-step guide with a demo.
+                        </p>
+                        <a href="posts/playwright-mcp-guide.html" class="read-more">Read Article <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Placeholder for more posts -->
+                <article class="blog-card" style="opacity: 0.5; pointer-events: none;">
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Coming Soon</span>
+                            <span class="blog-tag">Cloud</span>
+                        </div>
+                        <h2 class="blog-title">Scaling Test Infrastructure on AWS</h2>
+                        <p class="blog-excerpt">
+                            Strategies for running parallel Playwright tests using AWS Fargate and Docker containers.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Vikas Kumar. Built with <i class="fas fa-heart" style="color: var(--accent-color);"></i> and AI.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

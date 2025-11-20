@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automating Quality with Playwright MCP | Vikas Kumar</title>
+    <meta name="description"
+        content="A guide to using the Model Context Protocol (MCP) with Playwright for AI-driven testing.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="../index.html" class="logo">VK<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#skills">Skills</a></li>
+                <li><a href="../index.html#experience">Experience</a></li>
+                <li><a href="../blog.html" class="active">Blog</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <a href="../Vikas Kumar - QA Automation Analyst.pdf" class="btn-primary" target="_blank">Resume <i
+                    class="fas fa-download"></i></a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="article-container">
+            <header class="article-header">
+                <div class="blog-meta" style="justify-content: center;">
+                    <span class="blog-date">Nov 20, 2025</span>
+                    <span class="blog-tag">AI & Automation</span>
+                </div>
+                <h1 class="hero-name" style="font-size: 2.5rem;">Automating Quality with Playwright MCP & AI Agents</h1>
+            </header>
+
+            <div class="article-content">
+                <p>
+                    The landscape of Quality Assurance is shifting rapidly. As a Senior QA Automation Analyst, I've
+                    always been interested in how we can move beyond brittle scripts and towards intelligent agents that
+                    understand the <em>intent</em> of a test. Enter the <strong>Model Context Protocol (MCP)</strong>.
+                </p>
+
+                <h2>What is MCP?</h2>
+                <p>
+                    MCP is a standard that allows AI models (like Claude) to connect to external tools. In the context
+                    of QA, this means we can give an AI agent direct access to a browser via
+                    <strong>Playwright</strong>. Instead of writing a script that says "Click selector #btn-submit", we
+                    can tell the AI: "Go to the contact page and fill out the form with valid data."
+                </p>
+
+                <h2>The Experiment</h2>
+                <p>
+                    I wanted to see if an AI agent could autonomously navigate and "test" my own portfolio website. I
+                    used the <strong>Playwright MCP Server</strong> to give the agent control.
+                </p>
+
+                <h3>The Setup</h3>
+                <p>
+                    Here is how you can set this up yourself. You'll need `npm` and a compatible AI client (like Claude
+                    Desktop).
+                </p>
+                <pre><code>npm install -g @modelcontextprotocol/server-playwright</code></pre>
+                <p>
+                    Then, configure your AI client to use this server. For Claude Desktop, edit your config file:
+                </p>
+                <pre><code>{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-playwright", "install"]
+    }
+  }
+}</code></pre>
+
+                <h2>Results: AI in Action</h2>
+                <p>
+                    Below is a recording of the AI agent navigating my portfolio. I simply gave it the instruction:
+                    <em>"Navigate to my portfolio, check the skills section, and verify the contact button works."</em>
+                </p>
+
+                <video controls autoplay loop muted playsinline>
+                    <source src="../assets/mcp-demo.webp" type="video/webp">
+                    Your browser does not support the video tag.
+                </video>
+
+                <p>
+                    The agent successfully:
+                </p>
+                <ul>
+                    <li>Loaded the homepage.</li>
+                    <li>Identified the "Skills" section and scrolled to it.</li>
+                    <li>Interacted with the "Contact Me" button.</li>
+                </ul>
+
+                <h2>Conclusion</h2>
+                <p>
+                    This isn't just a cool trick; it represents the future of <strong>Exploratory Testing</strong>. AI
+                    agents can now perform "smoke tests" on demand, exploring edge cases that we might forget to script.
+                    As we continue to "Shift Left", tools like Playwright MCP will be essential in our toolkit.
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Vikas Kumar. Built with <i class="fas fa-heart" style="color: var(--accent-color);"></i> and AI.
+        </p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
