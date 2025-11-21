@@ -10,7 +10,7 @@ test.describe('Portfolio UI Tests', () => {
     });
 
     test('should have correct title and metadata', async ({ page }) => {
-        await expect(page).toHaveTitle(/Vikas Kumar | Senior QA Automation Analyst/);
+        await expect(page).toHaveTitle(/Vikas Kumar | Senior QA Automation Analyst | QA Automation Analyst/);
     });
 
     test('should display hero section with key elements', async () => {
