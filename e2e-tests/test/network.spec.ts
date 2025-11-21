@@ -1,4 +1,6 @@
 import { test, expect } from '@playwright/test';
+import { HomePage } from '../pages/HomePage';
+import { BlogPage } from '../pages/BlogPage';
 
 test.describe('Network & Sanity Tests', () => {
     test('should return 200 OK for homepage', async ({ request }) => {
@@ -18,7 +20,8 @@ test.describe('Network & Sanity Tests', () => {
             failedRequests.push(request.url());
         });
 
-        await page.goto('/');
+        const homePage = new HomePage(page);
+        await homePage.goto();
 
         // Wait a bit for assets to load
         await page.waitForLoadState('networkidle');

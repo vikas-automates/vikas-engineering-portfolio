@@ -1,4 +1,4 @@
-# Vikas Kumar | Senior QA Automation Analyst
+# Vikas Kumar | Senior QA Automation Analyst | DevOps & CI/CD Specialist
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=github)](https://vikas-automates.github.io/vikas-engineering-portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vikas-automates)
@@ -6,13 +6,13 @@
 
 ## 👋 About Me
 
-I am a **Results-driven QA Automation Analyst** with 8+ years of experience in software quality assurance, test automation, and CI/CD pipeline implementation. I specialize in "shifting left"—catching bugs early and optimizing processes to boost team efficiency.
+I am a **Senior QA Automation Analyst** with 8 years of experience architecting scalable test automation frameworks and implementing DevOps-enabled CI/CD pipelines. I have a proven track record of improving team efficiency by **35%** and reducing regression testing cycles by **60%**.
 
-Currently, I'm spearheading **AI/ML integration** for test automation, leveraging tools like **GitHub Copilot** and **Playwright MCP** to redefine quality engineering.
+Currently, I'm leading QA operations across 4 automotive intelligence products at **J.D. Power & Associates**, leveraging **Playwright, GitLab CI, Docker, and AWS** to deliver mission-critical solutions. I'm also expanding my expertise in **DevOps engineering** and **AI-augmented testing**.
 
-- 🔭 I’m currently working on **Agentic AI for QA Automation**
-- 🌱 I’m currently learning **DevOps & Cloud Infrastructure**
-- 💬 Ask me about **Playwright, Selenium, & AI-Driven Testing**
+- 🔭 I'm currently working on **DevOps Engineering Bootcamp** and **AI/ML in Test Automation**
+- 🌱 I'm currently learning **Terraform, Kubernetes, and LLM-based Testing Strategies**
+- 💬 Ask me about **Playwright, GitLab CI, Docker, AWS, & AI-Driven Testing**
 
 ---
 
@@ -23,7 +23,8 @@ Currently, I'm spearheading **AI/ML integration** for test automation, leveragin
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=Selenium&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
-![Appium](https://img.shields.io/badge/Appium-41c4ff?style=flat-square&logo=appium&logoColor=white)
+![Serenity BDD](https://img.shields.io/badge/Serenity_BDD-16a67a?style=flat-square&logo=cucumber&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-DC524A?style=flat-square&logo=testng&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ### Languages
@@ -34,6 +35,7 @@ Currently, I'm spearheading **AI/ML integration** for test automation, leveragin
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ### CI/CD & Cloud
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -59,9 +61,11 @@ My personal portfolio website built with **HTML5, CSS3, and JavaScript**.
 
 ## 🏆 Certifications
 
-- **ISTQB® Certified Tester** - Foundation Level
-- **AWS Certified Cloud Practitioner**
-- **Google Introduction to Generative AI & LLMs**
+- **ISTQB® Certified Tester** - Foundation Level | iSQI
+- **AWS Certified Cloud Practitioner** | Amazon Web Services
+- **Google Introduction to Generative AI & LLMs** | Google Cloud
+- **MCP Servers and Automation for Testers** | ShiftSync
+- **Version Control with Git** | Atlassian
 
 ---
 

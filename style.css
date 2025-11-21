@@ -393,9 +393,9 @@ pre {
     text-align: center;
     color: var(--text-primary);
     position: relative;
-    display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
+    display: block;
+    width: fit-content;
+    margin: 0 auto 3rem auto;
 }
 
 .section-title::after {
@@ -602,7 +602,7 @@ pre {
 }
 
 /* Responsive Timeline */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .timeline::after {
         left: 31px;
     }
@@ -611,6 +611,8 @@ pre {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
+        left: 0 !important;
+        position: static !important;
     }
 
     .timeline-item:nth-child(odd) {
@@ -624,6 +626,10 @@ pre {
 
     .timeline-item:nth-child(even) .timeline-dot {
         left: 21px;
+    }
+
+    .timeline-item:nth-child(even) {
+        left: 0 !important;
     }
 }
 
