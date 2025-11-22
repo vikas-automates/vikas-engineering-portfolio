@@ -1,6 +1,7 @@
 # Vikas Kumar | Senior QA Automation Analyst | DevOps & CI/CD Specialist
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=github)](https://vikas-automates.github.io/vikas-engineering-portfolio/)
+[![Playwright Tests](https://github.com/vikas-automates/vikas-engineering-portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/vikas-automates/vikas-engineering-portfolio/actions/workflows/playwright.yml)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vikas-automates)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:vkvikaskumar447@gmail.com)
 
@@ -58,6 +59,28 @@ My personal portfolio website built with **HTML5, CSS3, and JavaScript**.
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vikas-automates&layout=compact&theme=radical)
 
 ---
+
+## 🧪 How to Run Tests
+
+This portfolio is treated as a production-grade application. It includes a comprehensive End-to-End (E2E) test suite using **Playwright** to ensure:
+- 📱 Mobile responsiveness
+- 🔗 Link validity
+- 🎨 Visual layout stability
+
+### Run Locally
+```bash
+# Install dependencies
+npm install
+
+# Run E2E tests
+npx playwright test
+
+# View test report
+npx playwright show-report
+```
+
+---
+
 
 ## 🏆 Certifications
 
